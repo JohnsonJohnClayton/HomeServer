@@ -23,4 +23,13 @@ https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mys
 ## Change History
 > ufw allow OpenSSH
 > ufw enable
-> reboot now
+> reboot
+
+###5/22 mySQL
+> apt install mysql-server
+> mysql
+> ALTER USER 'root'@'localhost' IDENTIFIED BY '#########'
+> mysql_secure_secure installation
+> mysql -u root -p
+> CREATE USER 'john'@'localhost'
+
